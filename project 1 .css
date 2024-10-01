@@ -1,0 +1,99 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(levi-guzman-zdSoe8za6Hs-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10px;
+    overflow: hidden;
+    position: relative;
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    
+    width: 240px;
+    padding: 0px 50px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 15px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:palevioletred;
+    font-weight: 400;
+}
+.login-btn{
+    text-decoration: none;
+    color:papayawhip;
+    margin-right: 15px;
+    font-weight: 400;
+    padding: 30px;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #333;
+    background-image: linear-gradient(45deg, #df4881, #c430d7);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 1s;
+    padding-right: 40px;
+}
+.content{
+    margin-top: 10%;
+    max-width: 600px;
+    padding: 50px; 
+}
+.content h1{
+    font-size: 70px;
+    color:plum;
+}
+.content p{
+    margin: 10px 0 30px;
+    color:skyblue;
+    animation-delay: 1s;
+}
+.content .btn{
+    padding: 15px 80px;
+    font-size: 16px;
+    animation-delay: 1.5s;
+}
+.btn:hover{
+    border-top-right-radius: 30px;
+}
+.feature{
+    width: 530px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
+/* .feature .anim{ */
+/* animation-delay: 2s; */
+/* } */
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 1s linear forwards;
+}
+@keyframes moveup{
+100%{
+opacity: 1;
+transform: translateY(0px);
+
+}
+}
