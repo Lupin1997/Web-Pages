@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #42455a;
+
+}
+.container{
+    width: 100%;
+    height:100%;   
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color: #b2b1b1;
+    cursor: pointer;
+}
+.logo img{
+    width:50px;
+    margin-top: -7px;
+    margin-right: 48px;
+
+}
+.active{
+    color: #19dafa !important;
+}
+.btn{
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#424552,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin:border-box;
+    background-clip:content-box,border-box;   
+}
+.btn span{
+    display: block;
+    padding: 8px 22px;
+}
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: #fff;
+}
+.app{
+    width: 50%;
+    float: left;
+}
+.app h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 30px;
+} 
+.app p{
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30px 30px;
+    line-height: 25px;
+    color:#919191;
+
+}
+app-picture{
+    width: 50%;
+    float: right;
+    padding-left:  100px;: ;
+}
+.app-picture img{
+    width: 100%;
+    margin-top: -20px;
+    padding-left:50px ;
+}
+/* .playbtn{
+    margin-left: 40px;
+    display: inline-flex;
+} */
+/* .quick{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: linear-gradient(to right ,#db1bf6,#19d7f8 );
+    display: inline-block;
+} */
